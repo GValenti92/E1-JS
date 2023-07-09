@@ -79,12 +79,12 @@ const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 ejercicio7(array);
 
 //ejercicio 8
-function multiplo(array, numero) {
-  for (let i = 0; i < array.length; i++) {
-    console.log(array[i] * numero);
+function multiplo(array1, numero) {
+  for (let i = 0; i < array1.length; i++) {
+    console.log(array1[i] * numero);
   }
 }
 
-const array = [5, 10, 15, 20, 25];
+const array1 = [5, 10, 15, 20, 25];
 const numero = 2;
-multiplo(array, numero);
+multiplo(array1, numero);
