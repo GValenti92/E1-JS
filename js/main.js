@@ -1,5 +1,5 @@
 // ejercicio 1
-var num = 16;
+const num = 16;
 function paridad(num) {
   if (num % 2 === 0) {
     console.log(`el número ` + num + ` es par`);
@@ -10,8 +10,8 @@ function paridad(num) {
 paridad(num);
 
 // ejercicio 2
-var num1 = 3;
-var num2 = 6;
+const num1 = 3;
+const num2 = 6;
 function comparacion(num1, num2) {
   if (num1 > num2) {
     console.log("El número " + num1 + " es mayor a " + num2);
@@ -26,15 +26,15 @@ function comparacion(num1, num2) {
 comparacion(num1, num2);
 
 // ejercicio 3
-var numero = 10;
-function multiplo5(numero) {
-  if (numero > 0 && numero % 5 == 0) {
-    console.log("Si, el número " + numero + " es múltiplo de 5");
+let digito = 10;
+function multiplo5(digito) {
+  if (digito > 0 && digito % 5 == 0) {
+    console.log("Si, el número " + digito + " es múltiplo de 5");
   } else {
-    console.log("No, el número " + numero + " no es múltiplo de 5");
+    console.log("No, el número " + digito + " no es múltiplo de 5");
   }
 }
-multiplo5(numero);
+multiplo5(digito);
 
 // ejercicio 4
 contador = 0;
@@ -48,16 +48,16 @@ function ciclos(contador, rep) {
 ciclos(contador, rep);
 
 // ejercicio 5
-contador = 1;
+contador1 = 1;
 palabra = "java";
 nr = 5;
-function pyn(palabra, nr, contador) {
-  while (contador < nr) {
+function pyn(palabra, nr, contador1) {
+  while (contador1 < nr) {
     console.log(palabra);
-    contador++;
+    contador1++;
   }
 }
-pyn(palabra, nr, contador);
+pyn(palabra, nr, contador1);
 
 // ejercicio 6
 let familia = ["Milo", "Anabella", "Gastón"];
