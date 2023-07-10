@@ -9,6 +9,8 @@ function paridad(num) {
 }
 paridad(num);
 
+console.log(`------`);
+
 // ejercicio 2
 const num1 = 3;
 const num2 = 6;
@@ -25,6 +27,8 @@ function comparacion(num1, num2) {
 }
 comparacion(num1, num2);
 
+console.log(`-------`);
+
 // ejercicio 3
 let digito = 10;
 function multiplo5(digito) {
@@ -36,6 +40,8 @@ function multiplo5(digito) {
 }
 multiplo5(digito);
 
+console.log(`-------`);
+
 // ejercicio 4
 contador = 0;
 rep = 10;
@@ -46,6 +52,8 @@ function ciclos(contador, rep) {
   }
 }
 ciclos(contador, rep);
+
+console.log(`-------`);
 
 // ejercicio 5
 contador1 = 1;
@@ -59,6 +67,8 @@ function pyn(palabra, nr, contador1) {
 }
 pyn(palabra, nr, contador1);
 
+console.log(`-------`);
+
 // ejercicio 6
 let familia = ["Milo", "Anabella", "Gastón"];
 function array(familia) {
@@ -66,17 +76,21 @@ function array(familia) {
 }
 array(familia);
 
+console.log(`-------`);
+
 // ejercicio 7
-function ejercicio7(array) {
-  for (let i = 0; i < array.length; i++) {
+function ejercicio7(arreglo) {
+  for (let i = 0; i < arreglo.length; i++) {
     if (i !== 4) {
-      console.log(array[i]);
+      console.log(arreglo[i]);
     }
   }
 }
 
-const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-ejercicio7(array);
+const arreglo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+ejercicio7(arreglo);
+
+console.log(`-------`);
 
 //ejercicio 8
 function multiplo(array1, numero) {

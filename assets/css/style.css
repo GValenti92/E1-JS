@@ -1,0 +1,26 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/assets/background/js.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Título */
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  color: cornflowerblue;
+}
+/* Animacion  */
+.title:hover {
+  transform: scale(1.3);
+  transition: transform 2s ease-in-out;
+  z-index: 2;
+  cursor: pointer;
+}
